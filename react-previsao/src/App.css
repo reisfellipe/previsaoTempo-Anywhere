@@ -1,0 +1,37 @@
+.container {
+    max-width: 1000px;
+    padding: 20px;
+    margin: 0;
+    background-color: #22222222;
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    color: #222222d8;
+}
+
+input{
+    padding: 10px;
+    border-radius: 12px 0 0 12px;
+    border: none;
+    width: 60%;
+    max-width: 300px;
+    outline: none;
+    margin-top: 30px;
+}
+
+button {
+    background-color: rgba(44, 140, 196, 0.786);
+    border: none;
+    padding: 10px;
+    border-radius: 0 12px 12px 0;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: all .3s;
+}
+
+button:hover{
+    background-color: rgba(65, 105, 225, 0.587);
+}

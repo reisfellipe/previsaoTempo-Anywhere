@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react'
 import axios from 'axios'
 import './App.css'
-import WeatherInfo from './components/WeatherInfo/WeatherInfo'
+import WeatherInfo from './components/WeatherInfo/WeatherInformations'
 
 function App() {
   const [weather, setWeather] = useState()
