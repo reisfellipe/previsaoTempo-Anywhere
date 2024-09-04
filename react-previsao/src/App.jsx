@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='container'>
         
         <h1>Fellipe Reis | Previsão do tempo</h1>
         <input ref={inputRef} type="text" placeholder='Qual a cidade?'/>
