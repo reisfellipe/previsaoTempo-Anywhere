@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import '../WeatherInfo/WeatherInformations.css'
+import './WeatherInformations.css'
 
 function WeatherInfo({weather}){
 
